@@ -31,4 +31,5 @@ Front-end of angular based application
 ## Yet to complete:
  Connection to backend to make everything functional (Google Firebase Firestore) (Future Implemenentation)
 
-
+## Running Instructions:
+In command prompt run ngserve
