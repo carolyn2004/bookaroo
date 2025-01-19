@@ -57,3 +57,25 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+------
+Problem: 
+Many people have books they no longer need or want, which could be of great interest to others. However, there's a lack of a convenient, centralized platform for exchanging these books. Traditional methods of donating or selling books can be cumbersome and don't always ensure the books reach those who would value them most.
+
+Peer-to Peer (P2P) Book Exchange Platform. This web application will facilitate the easy listing, searching, and exchanging of books among users. By creating a community-driven platform, we aim to make book exchange as easy as clicking a button, ensuring books find new readers who appreciate them.
+
+#My Idea:
+create like a dating platform but for books + a bit of inspiration from carousell
+
+User can sign up for an account -> then login
+
+User get to see a list of books (will have search ability to search for specific book), books can also be filtered by category as well
+
+Once user see a book he/she like, you can tap on the (request exchange button) will be prompted to select based on what books they have uploaded that they wish to exhchange and from there the other user will recieve an exchange request. 
+
+User can choose to chat with the user, discuss what they like about the book before "accepting exchange".
+
+# Implementated: Front End
+# To be Implemented: Backend + Google Firebase Firestore (making the app functional)
+
