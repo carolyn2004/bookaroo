@@ -29,6 +29,6 @@ Each user has a profile that displays their exchange history and the number of s
 Front-end of angular based application 
 
 ## Yet to complete:
-## Connection to backend to make everything functional (Google Firebase Firestore) (Future Implemenentation)
+ Connection to backend to make everything functional (Google Firebase Firestore) (Future Implemenentation)
 
 ## Running Instructions Ng Serve
