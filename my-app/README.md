@@ -77,5 +77,6 @@ Once user see a book he/she like, you can tap on the (request exchange button) w
 User can choose to chat with the user, discuss what they like about the book before "accepting exchange".
 
 # Implementated: Front End
-# To be Implemented: Backend + Google Firebase Firestore (making the app functional)
+# To be Implemented:
+Backend + Google Firebase Firestore (making the app functional)
 
