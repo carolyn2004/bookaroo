@@ -6,20 +6,19 @@ Solution: This Peer-to-Peer (P2P) Book Exchange Platform is a web application de
 
 ## Features (In Idea)
 User Authentication:
-
 Users can sign up for an account and login securely.
-Book Listing & Search:
 
+Book Listing & Search:
 Users can list books they wish to exchange.
 Books can be searched by title, author, or other criteria.
 Filters are available to sort books by categories like genre, author, or publication year.
-Request Exchange:
 
+Request Exchange:
 Once a user finds a book they are interested in, they can tap the 'Request Exchange' button.
 Users will be prompted to select books they have uploaded and are willing to exchange in return.
 The book owner will receive the exchange request.
-Chat Functionality:
 
+Chat Functionality:
 Users can chat with each other to discuss the books and their preferences before agreeing to exchange.
 Profile & Exchange History:
 
