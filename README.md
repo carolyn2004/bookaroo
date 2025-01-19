@@ -79,5 +79,8 @@ User can choose to chat with the user, discuss what they like about the book bef
 # Implementated: 
 Front End
 # To be Implemented:
-Backend + Google Firebase Firestore (making the app functional)
+Backend + Google Firebase Firestore (making the app functional with API)
+# Creative Features I would implement in the future:
+- When the user first joins the app, they will be able to indicate the types of book they like to read
+- Based on available data, use AI to recommend books user might be interested in
 
