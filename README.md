@@ -32,3 +32,13 @@ Front-end of angular based application
 
 ## Running Instructions:
 In command prompt run ngserve
+
+![image](https://github.com/user-attachments/assets/fbd18ac6-4d1d-4b7c-9ad2-9742cab026e2)
+![image](https://github.com/user-attachments/assets/116e055d-dd11-487f-acbd-abf75d0bb60c)
+![image](https://github.com/user-attachments/assets/22941719-6ec8-498a-96f0-94dd92502793)
+![image](https://github.com/user-attachments/assets/222e9a30-4119-40d6-a031-ee2998fd02c6)
+![image](https://github.com/user-attachments/assets/8b40ca88-5c20-41c5-ab8c-3fee3a743a22)
+
+
+
+
