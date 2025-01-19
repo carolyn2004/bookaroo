@@ -1,13 +1,13 @@
 # bookaroo
 
 
-Peer-to-Peer (P2P) Book Exchange Platform
+##Peer-to-Peer (P2P) Book Exchange Platform
 Overview
 Problem Statement: Many people have books they no longer need or want, which could be of great interest to others. However, there is a lack of a convenient, centralized platform for exchanging these books. Traditional methods of donating or selling books can be cumbersome and do not always ensure the books reach those who would value them most.
 
 Solution: This Peer-to-Peer (P2P) Book Exchange Platform is a web application designed to facilitate the easy listing, searching, and exchanging of books among users. By creating a community-driven platform, we aim to make book exchange as easy as clicking a button, ensuring that books find new readers who appreciate them.
 
-Features
+## Features
 User Authentication:
 
 Users can sign up for an account and login securely.
