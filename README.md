@@ -29,7 +29,7 @@ Profile & Exchange History:
 Each user has a profile that displays their exchange history and the number of successful exchanges they’ve made, as well as all the books they have uploaded to Bookaroo
 
 ## What I have completed:
-Front-end of application 
+Front-end of angular based application 
 
 ## Yet to complete:
 ## Connection to backend to make everything functional (Google Firebase Firestore) (Future Implemenentation)
