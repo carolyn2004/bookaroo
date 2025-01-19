@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Book Listings</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    
+</head>
+<body>
+
+
+    <div class="container">
+        <!-- Search Bar with margin top -->
+        <div class="row search-bar mt-4">
+            <div class="col-md-12">
+                <input type="text" class="form-control" placeholder="Search for books..." id="searchBar">
+            </div>
+        </div>
+    
+        <!-- Filter Buttons with margin top -->
+        <div class="row mb-4 mt-3">
+            <div class="col-md-12 d-flex gap-3"> <!-- Adjust gap as needed -->
+                <button class="btn btn-outline-primary">Fiction</button>
+                <button class="btn btn-outline-primary">Non-Fiction</button>
+                <button class="btn btn-outline-primary">Sci-Fi</button>
+                <button class="btn btn-outline-primary">Romance</button>
+                <button class="btn btn-outline-primary">Biography</button>
+            </div>
+        </div>
+    
+        <!-- Book Listings (Bookshelf effect) -->
+        <div class="bookshelf">
+            <!-- Example Book 1 -->
+            <div class="listing-card">
+                <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1586722975i/2767052.jpg" class="card-img-top" alt="Book Image">
+                <div class="card-body">
+                    <h5 class="card-title">Book Title 1</h5>
+                    <p class="card-text">Author: Author Name</p>
+                    <p class="card-text">Price: $20</p>
+                    <a href="/book-details" class="btn btn-primary">View Details</a>
+                </div>
+            </div>
+            <!-- Example Book 2 -->
+            <div class="listing-card">
+                <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1612238791i/56916837.jpg" class="card-img-top" alt="Book Image">
+                <div class="card-body">
+                    <h5 class="card-title">Book Title 2</h5>
+                    <p class="card-text">Author: Author Name</p>
+                    <p class="card-text">Price: $25</p>
+                    <a href="/book-details" class="btn btn-primary">View Details</a>
+                </div>
+            </div>
+            <!-- Example Book 3 -->
+            <div class="listing-card">
+                <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1541428344i/17165596.jpg" class="card-img-top" alt="Book Image">
+                <div class="card-body">
+                    <h5 class="card-title">Book Title 3</h5>
+                    <p class="card-text">Author: Author Name</p>
+                    <p class="card-text">Price: $15</p>
+                    <a href="/book-details" class="btn btn-primary">View Details</a>
+                </div>
+            </div>
+            <!-- Example Book 4 -->
+            <div class="listing-card">
+                <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1631251689i/4214.jpg" class="card-img-top" alt="Book Image">
+                <div class="card-body">
+                    <h5 class="card-title">Book Title 4</h5>
+                    <p class="card-text">Author: Author Name</p>
+                    <p class="card-text">Price: $18</p>
+                    <a href="/book-details" class="btn btn-primary">View Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybFq92lzzX8HR9KJ2" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0+zAZLrWv8+3jD1zZzdd0r4jiq1eXcQzDxzDa7W0jzXMxV91" crossorigin="anonymous"></script>
+
+</body>
+</html>

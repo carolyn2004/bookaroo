@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Details</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="row">
+        <!-- Book Image -->
+        <div class="col-md-3">
+            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1586722975i/2767052.jpg" alt="Book Cover" class="img-fluid rounded">
+        </div>
+
+        <!-- Book Details -->
+        <div class="col-md-9 book-card">
+            <h2 class="book-title">The Namesake</h2>
+            <h5 class="text-muted">Jhumpa Lahiri</h5>
+
+            <!-- Genre Button (Non-clickable) -->
+            <button class="genre-btn mb-3" disabled>Fiction</button>
+
+            <!-- Description -->
+            <p>
+                Jhumpa Lahiri's <em>Interpreter of Maladies</em> established this young writer as one of the most brilliant of her generation. Among the many other awards and honors it received were the New Yorker Debut of the Year award, the PEN/Hemingway Award, and the highest critical praise for its grace, acuity, and...
+            </p>
+
+            <!-- Request Exchange Button -->
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#requestExchangeModal">Request Exchange</button>
+        </div>
+    </div>
+
+</div>
+
+<!-- Modal for Request Exchange -->
+<div class="modal fade" id="requestExchangeModal" tabindex="-1" aria-labelledby="requestExchangeModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="requestExchangeModalLabel">Request Book Exchange</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Filter Section -->
+        <div class="mb-3">
+            <label for="bookFilter" class="form-label">Filter by Genre</label>
+            <select class="form-select" id="bookFilter">
+                <option selected>Select Genre</option>
+                <option value="fiction">Fiction</option>
+                <option value="nonfiction">Non-Fiction</option>
+                <option value="scifi">Sci-Fi</option>
+            </select>
+        </div>
+
+        <!-- Message Box Section -->
+        <div class="mb-3">
+            <label for="messageBox" class="form-label">Your Message</label>
+            <textarea class="form-control" id="messageBox" rows="3"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit Request</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybFq92lzzX8HR9KJ2" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0+zAZLrWv8+3jD1zZzdd0r4jiq1eXcQzDxzDa7W0jzXMxV91" crossorigin="anonymous"></script>
+
+</body>
+</html>

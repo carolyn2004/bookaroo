@@ -1,0 +1,41 @@
+body {
+    background-color: #ffffff; /* Ensure the body background is white */
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff; /* Ensure the container background is white */
+}
+
+.book-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.genre-btn {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.book-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.modal-content {
+    border-radius: 8px;
+}
+
+.img-fluid {
+    background-color: transparent !important; /* Ensure no background behind the image */
+    max-height: 300px; /* Adjusted height to fit */
+    width: auto; /* Keeps the aspect ratio */
+    object-fit: contain; /* Ensures the entire image is visible */
+    display: block;
+    margin: 0 auto;
+}
