@@ -7,7 +7,7 @@ Problem Statement: Many people have books they no longer need or want, which cou
 
 Solution: This Peer-to-Peer (P2P) Book Exchange Platform is a web application designed to facilitate the easy listing, searching, and exchanging of books among users. By creating a community-driven platform, we aim to make book exchange as easy as clicking a button, ensuring that books find new readers who appreciate them.
 
-## Features
+## Features (In Idea)
 User Authentication:
 
 Users can sign up for an account and login securely.
@@ -26,4 +26,12 @@ Chat Functionality:
 Users can chat with each other to discuss the books and their preferences before agreeing to exchange.
 Profile & Exchange History:
 
-Each user has a profile that displays their exchange history and the number of successful exchanges they’ve made.
+Each user has a profile that displays their exchange history and the number of successful exchanges they’ve made, as well as all the books they have uploaded to Bookaroo
+
+## What I have completed:
+Front-end of application 
+
+## Yet to complete:
+## Connection to backend to make everything functional (Google Firebase Firestore) (Future Implemenentation)
+
+## Running Instructions Ng Serve
