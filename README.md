@@ -65,7 +65,7 @@ Many people have books they no longer need or want, which could be 
 
 Peer-to Peer (P2P) Book Exchange Platform. This web application will facilitate the easy listing, searching, and exchanging of books among users. By creating a community-driven platform, we aim to make book exchange as easy as clicking a button, ensuring books find new readers who appreciate them.
 
-#My Idea:
+# My Idea:
 create like a dating platform but for books + a bit of inspiration from carousell
 
 User can sign up for an account -> then login
@@ -76,7 +76,7 @@ Once user see a book he/she like, you can tap on the (request exchange button) w
 
 User can choose to chat with the user, discuss what they like about the book before "accepting exchange".
 
-# Implementated: 
+# Implemented: 
 Front End
 # To be Implemented:
 Backend + Google Firebase Firestore (making the app functional with API)
